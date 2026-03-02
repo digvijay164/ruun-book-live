@@ -1,5 +1,6 @@
 <script>
     import { onMount } from "svelte";
+    import NeuralBackground from "$lib/components/NeuralBackground.svelte";
     import { Play, ArrowRight, Network, Lock } from "lucide-svelte";
     import { staggerReveal, mouseParallax } from "$lib/animations.js";
 
@@ -35,6 +36,7 @@
 >
     <!-- Background Effects -->
     <div class="absolute inset-0 z-0">
+        <NeuralBackground />
         <div
             class="absolute top-1/4 left-1/4 w-[30rem] h-[30rem] bg-red-600/20 rounded-full blur-[120px] mix-blend-screen pointer-events-none"
         ></div>
@@ -183,8 +185,7 @@
                             <Network class="w-3.5 h-3.5" /> Neural Net
                         </div>
                         <div class="flex justify-between items-center">
-                            <span class="text-[10px] text-zinc-400"
-                                >Epochs</span
+                            <span class="text-[10px] text-zinc-400">Epochs</span
                             >
                             <span class="text-[10px] font-mono text-red-300"
                                 >100/100</span
