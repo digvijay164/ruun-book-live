@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-blue: #dc2626;
+  /* red-600 */
+  --color-brand-purple: #991b1b;
+  /* red-800 */
+  --color-brand-dark: #000000;
+  /* black */
+  --color-brand-light: #f4f4f5;
+  /* zinc-100 */
+}
+
+html,
+body {
+  background-color: var(--color-brand-dark);
+  color: var(--color-brand-light);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
