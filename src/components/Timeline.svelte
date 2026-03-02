@@ -16,45 +16,45 @@
             title: "Add Data",
             desc: "Import or generate your dataset.",
             icon: Database,
-            color: "text-red-400",
-            bg: "bg-red-500/20",
-            line: "bg-red-500",
+            color: "text-blue-400",
+            bg: "bg-blue-500/20",
+            line: "bg-blue-500",
         },
         {
             id: 2,
             title: "Label & Split",
             desc: "Define targets and train/test splits.",
             icon: Scissors,
-            color: "text-red-500",
-            bg: "bg-red-700/20",
-            line: "bg-red-700",
+            color: "text-blue-500",
+            bg: "bg-purple-500/20",
+            line: "bg-purple-500",
         },
         {
             id: 3,
             title: "Algorithm",
             desc: "Select your ML architecture.",
             icon: BrainCircuit,
-            color: "text-red-400",
-            bg: "bg-red-500/20",
-            line: "bg-red-500",
+            color: "text-blue-400",
+            bg: "bg-blue-500/20",
+            line: "bg-blue-500",
         },
         {
             id: 4,
             title: "Train",
             desc: "Watch the model learn instantly.",
             icon: Play,
-            color: "text-red-400",
-            bg: "bg-red-500/20",
-            line: "bg-red-500",
+            color: "text-blue-400",
+            bg: "bg-blue-500/20",
+            line: "bg-blue-500",
         },
         {
             id: 5,
             title: "Analyze",
             desc: "View metrics and confusion matrix.",
             icon: BarChart,
-            color: "text-red-400",
-            bg: "bg-red-500/20",
-            line: "bg-red-500",
+            color: "text-blue-400",
+            bg: "bg-blue-500/20",
+            line: "bg-blue-500",
         },
     ];
 
@@ -88,11 +88,11 @@
         <div class="text-center mb-16">
             <h2 class="text-3xl md:text-5xl font-bold text-white mb-4">
                 From zero to model in <span
-                    class="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-red-500"
+                    class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-500"
                     >5 steps</span
                 >
             </h2>
-            <p class="text-zinc-400 text-lg">
+            <p class="text-slate-400 text-lg">
                 Our straightforward pipeline removes the complexity of writing
                 boilerplate code.
             </p>
@@ -101,16 +101,16 @@
         <div class="relative max-w-5xl mx-auto mt-20">
             <!-- Connecting Line (Desktop) -->
             <div
-                class="hidden md:block absolute top-[2.5rem] left-[10%] right-[10%] h-1 bg-zinc-900 rounded-full z-0"
+                class="hidden md:block absolute top-[2.5rem] left-[10%] right-[10%] h-1 bg-slate-900 rounded-full z-0"
             >
                 <div
-                    class="h-full bg-gradient-to-r from-red-500 via-red-500 to-red-500 w-[80%] rounded-full opacity-50 blur-sm"
+                    class="h-full bg-gradient-to-r from-blue-500 via-blue-500 to-blue-500 w-[80%] rounded-full opacity-50 blur-sm"
                 ></div>
             </div>
 
             <!-- Connecting Line (Mobile) -->
             <div
-                class="md:hidden absolute top-0 bottom-0 left-[2.5rem] w-1 bg-zinc-900 rounded-full z-0"
+                class="md:hidden absolute top-0 bottom-0 left-[2.5rem] w-1 bg-slate-900 rounded-full z-0"
             ></div>
 
             <div class="grid md:grid-cols-5 gap-12 md:gap-4 relative z-10">
@@ -119,7 +119,7 @@
                         class="timeline-item flex md:flex-col items-start md:items-center text-left md:text-center gap-6 md:gap-4 relative group"
                     >
                         <div
-                            class="absolute md:top-auto md:-bottom-8 top-10 -left-4 md:left-1/2 md:-tranzinc-x-1/2 text-[80px] font-black text-white/[0.03] -z-10 select-none group-hover:text-white/[0.05] transition-colors"
+                            class="absolute md:top-auto md:-bottom-8 top-10 -left-4 md:left-1/2 md:-translate-x-1/2 text-[80px] font-black text-white/[0.03] -z-10 select-none group-hover:text-white/[0.05] transition-colors"
                         >
                             {step.id}
                         </div>
@@ -134,14 +134,14 @@
                         </div>
                         <div class="flex-1 mt-2 md:mt-4">
                             <div
-                                class="text-[10px] font-bold text-zinc-500 mb-2 tracking-widest uppercase"
+                                class="text-[10px] font-bold text-slate-500 mb-2 tracking-widest uppercase"
                             >
                                 Phase 0{step.id}
                             </div>
                             <h4 class="text-white font-bold text-lg mb-2">
                                 {step.title}
                             </h4>
-                            <p class="text-zinc-400 text-sm leading-relaxed">
+                            <p class="text-slate-400 text-sm leading-relaxed">
                                 {step.desc}
                             </p>
                         </div>

@@ -19,8 +19,8 @@
     const maxParticles = 120;
     const connectionDistance = 20;
     const mouseRadius = 30;
-    const baseColor = new THREE.Color(0xdc2626); // red-600
-    const accentColor = new THREE.Color(0xfca5a5); // red-300 / white accent
+    const baseColor = new THREE.Color(0x3b82f6); // blue-500
+    const accentColor = new THREE.Color(0x8b5cf6); // purple-500
 
     function init() {
         scene = new THREE.Scene();

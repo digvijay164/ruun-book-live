@@ -20,13 +20,13 @@
         <div class="grid md:grid-cols-2 gap-16 items-center">
             <!-- Problem -->
             <div
-                class="reveal-ps space-y-8 bg-red-500/5 border border-red-500/10 p-8 rounded-3xl relative overflow-hidden"
+                class="reveal-ps space-y-8 bg-blue-500/5 border border-blue-500/10 p-8 rounded-3xl relative overflow-hidden"
             >
                 <div
-                    class="absolute top-0 right-0 w-32 h-32 bg-red-500/10 blur-[50px] rounded-full"
+                    class="absolute top-0 right-0 w-32 h-32 bg-blue-500/10 blur-[50px] rounded-full"
                 ></div>
                 <div
-                    class="inline-flex items-center gap-2 text-red-400 font-semibold mb-2"
+                    class="inline-flex items-center gap-2 text-blue-400 font-semibold mb-2"
                 >
                     <XCircle class="w-5 h-5" /> The Problem
                 </div>
@@ -36,25 +36,25 @@
                     AI learning is too theoretical.
                 </h2>
                 <ul class="space-y-4">
-                    <li class="flex items-start gap-3 text-zinc-400">
+                    <li class="flex items-start gap-3 text-slate-400">
                         <div
-                            class="mt-1.5 w-1.5 h-1.5 rounded-full bg-red-500 flex-shrink-0"
+                            class="mt-1.5 w-1.5 h-1.5 rounded-full bg-blue-500 flex-shrink-0"
                         ></div>
                         <span
                             >Tools are too complex for beginners and students.</span
                         >
                     </li>
-                    <li class="flex items-start gap-3 text-zinc-400">
+                    <li class="flex items-start gap-3 text-slate-400">
                         <div
-                            class="mt-1.5 w-1.5 h-1.5 rounded-full bg-red-500 flex-shrink-0"
+                            class="mt-1.5 w-1.5 h-1.5 rounded-full bg-blue-500 flex-shrink-0"
                         ></div>
                         <span
                             >No real-time visual feedback during training.</span
                         >
                     </li>
-                    <li class="flex items-start gap-3 text-zinc-400">
+                    <li class="flex items-start gap-3 text-slate-400">
                         <div
-                            class="mt-1.5 w-1.5 h-1.5 rounded-full bg-red-500 flex-shrink-0"
+                            class="mt-1.5 w-1.5 h-1.5 rounded-full bg-blue-500 flex-shrink-0"
                         ></div>
                         <span
                             >Heavy math focus before understanding the concepts
@@ -68,14 +68,14 @@
             <div class="reveal-ps space-y-8 relative">
                 <!-- Decorative glow -->
                 <div
-                    class="absolute -inset-4 bg-red-500/10 blur-2xl rounded-3xl -z-10"
+                    class="absolute -inset-4 bg-blue-500/10 blur-2xl rounded-3xl -z-10"
                 ></div>
 
                 <div
-                    class="bg-zinc-950/80 backdrop-blur-sm border border-red-500/20 p-8 lg:p-10 rounded-3xl shadow-xl"
+                    class="bg-slate-950/80 backdrop-blur-sm border border-blue-500/20 p-8 lg:p-10 rounded-3xl shadow-xl"
                 >
                     <div
-                        class="inline-flex items-center gap-2 text-red-400 font-semibold mb-6"
+                        class="inline-flex items-center gap-2 text-blue-400 font-semibold mb-6"
                     >
                         <CheckCircle class="w-5 h-5" /> The Solution
                     </div>
@@ -87,7 +87,7 @@
                     <ul class="space-y-6">
                         <li class="flex items-start gap-4">
                             <div
-                                class="w-10 h-10 rounded-full bg-red-500/20 flex items-center justify-center flex-shrink-0 text-red-400 font-bold border border-red-500/30"
+                                class="w-10 h-10 rounded-full bg-blue-500/20 flex items-center justify-center flex-shrink-0 text-blue-400 font-bold border border-blue-500/30"
                             >
                                 1
                             </div>
@@ -96,7 +96,7 @@
                                     Drag & Drop Nodes
                                 </h4>
                                 <p
-                                    class="text-sm text-zinc-400 mt-1 leading-relaxed"
+                                    class="text-sm text-slate-400 mt-1 leading-relaxed"
                                 >
                                     Build architectures intuitively without
                                     writing complex code first.
@@ -105,7 +105,7 @@
                         </li>
                         <li class="flex items-start gap-4">
                             <div
-                                class="w-10 h-10 rounded-full bg-red-500/20 flex items-center justify-center flex-shrink-0 text-red-400 font-bold border border-red-500/30"
+                                class="w-10 h-10 rounded-full bg-blue-500/20 flex items-center justify-center flex-shrink-0 text-blue-400 font-bold border border-blue-500/30"
                             >
                                 2
                             </div>
@@ -114,7 +114,7 @@
                                     Real-time Training
                                 </h4>
                                 <p
-                                    class="text-sm text-zinc-400 mt-1 leading-relaxed"
+                                    class="text-sm text-slate-400 mt-1 leading-relaxed"
                                 >
                                     Watch the model learn step by step with live
                                     feedback.
@@ -123,7 +123,7 @@
                         </li>
                         <li class="flex items-start gap-4">
                             <div
-                                class="w-10 h-10 rounded-full bg-red-500/20 flex items-center justify-center flex-shrink-0 text-red-400 font-bold border border-red-500/30"
+                                class="w-10 h-10 rounded-full bg-blue-500/20 flex items-center justify-center flex-shrink-0 text-blue-400 font-bold border border-blue-500/30"
                             >
                                 3
                             </div>
@@ -132,7 +132,7 @@
                                     Visual Metrics
                                 </h4>
                                 <p
-                                    class="text-sm text-zinc-400 mt-1 leading-relaxed"
+                                    class="text-sm text-slate-400 mt-1 leading-relaxed"
                                 >
                                     Interactive sandbox with clear charts that
                                     demystify performance.

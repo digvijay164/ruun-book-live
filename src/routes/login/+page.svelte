@@ -24,7 +24,7 @@
         <div>
             <label
                 for="email"
-                class="block text-sm font-medium text-zinc-300 mb-1.5"
+                class="block text-sm font-medium text-slate-300 mb-1.5"
                 >Email address</label
             >
             <input
@@ -32,7 +32,7 @@
                 id="email"
                 bind:value={email}
                 required
-                class="w-full bg-zinc-900 border border-zinc-700 rounded-xl px-4 py-3 text-white placeholder-zinc-500 focus:outline-none focus:border-red-500 focus:ring-1 focus:ring-red-500 transition-colors"
+                class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-white placeholder-slate-500 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-colors"
                 placeholder="you@example.com"
             />
         </div>
@@ -41,10 +41,10 @@
             <div class="flex items-center justify-between mb-1.5">
                 <label
                     for="password"
-                    class="block text-sm font-medium text-zinc-300"
+                    class="block text-sm font-medium text-slate-300"
                     >Password</label
                 >
-                <a href="#" class="text-xs text-red-400 hover:text-red-300"
+                <a href="#" class="text-xs text-blue-400 hover:text-blue-300"
                     >Forgot password?</a
                 >
             </div>
@@ -53,7 +53,7 @@
                 id="password"
                 bind:value={password}
                 required
-                class="w-full bg-zinc-900 border border-zinc-700 rounded-xl px-4 py-3 text-white placeholder-zinc-500 focus:outline-none focus:border-red-500 focus:ring-1 focus:ring-red-500 transition-colors"
+                class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-white placeholder-slate-500 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-colors"
                 placeholder="••••••••"
             />
         </div>
@@ -61,17 +61,17 @@
         <button
             type="submit"
             disabled={isSubmitting}
-            class="w-full bg-red-600 hover:bg-red-500 disabled:opacity-50 text-white font-bold py-3 rounded-xl transition-colors mt-6 shadow-[0_0_15px_rgba(220,38,38,0.3)]"
+            class="w-full bg-blue-600 hover:bg-blue-500 disabled:opacity-50 text-white font-bold py-3 rounded-xl transition-colors mt-6 shadow-[0_0_15px_rgba(37,99,235,0.3)]"
         >
             {isSubmitting ? "Logging in..." : "Log In"}
         </button>
 
         <div class="relative my-6">
             <div class="absolute inset-0 flex items-center">
-                <div class="w-full border-t border-zinc-700"></div>
+                <div class="w-full border-t border-slate-700"></div>
             </div>
             <div class="relative flex justify-center text-sm">
-                <span class="px-2 bg-zinc-950 text-zinc-400"
+                <span class="px-2 bg-slate-950 text-slate-400"
                     >Or continue with</span
                 >
             </div>
@@ -79,7 +79,7 @@
 
         <button
             type="button"
-            class="w-full bg-white hover:bg-zinc-100 text-zinc-950 font-bold py-3 rounded-xl transition-colors flex items-center justify-center gap-2"
+            class="w-full bg-white hover:bg-slate-100 text-slate-950 font-bold py-3 rounded-xl transition-colors flex items-center justify-center gap-2"
         >
             <svg class="w-5 h-5" viewBox="0 0 24 24"
                 ><path
@@ -99,10 +99,10 @@
             Google
         </button>
 
-        <p class="text-center text-sm text-zinc-400 mt-6">
+        <p class="text-center text-sm text-slate-400 mt-6">
             Don't have an account? <a
                 href="/register"
-                class="text-red-400 hover:text-red-300 font-semibold"
+                class="text-blue-400 hover:text-blue-300 font-semibold"
                 >Sign up</a
             >
         </p>
